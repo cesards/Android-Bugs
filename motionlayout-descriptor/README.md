@@ -2,8 +2,8 @@
 
 Experiments are run in two different ways:
 
-- A) Through XML
-- B) Programmatically through a Compound View + nested layout inflation using a `<merge>` tag.
+- Through XML
+- Programmatically through a Compound View + nested layout inflation using a `<merge>` tag.
 
 ### Broken Motion Scene When Loading It Programmatically
 
