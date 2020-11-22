@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<!-- From: https://github.com/android/views-widgets-samples/blob/master/ConstraintLayoutExamples/motionlayout/src/main/res/layout/motion_02_basic.xml-->
+
+<androidx.constraintlayout.motion.widget.MotionLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/motionLayout"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    app:layoutDescription="@xml/scene_02"
+    >
+
+    <View
+        android:id="@+id/button"
+        android:layout_width="64dp"
+        android:layout_height="64dp"
+        android:background="#ff00ddff"
+        android:text="Button"
+        app:layout_constraintHeight_percent="0.5"
+        />
+
+</androidx.constraintlayout.motion.widget.MotionLayout>
