@@ -7,7 +7,8 @@ Experiments are run in two different ways:
 
 ### Broken Motion Scene When Loading It Programmatically
 
-The layout inflated by the compound view (`CompoundMotionLayout`) using the `<merge>` tag broke on `2.0.0-beta4` (it was working correctly on `2.0.0-beta3`). We experienced this problem when switching from `2.0.0-beta3` to `2.0.4`, but I was able to scope the problem when switching from beta3 to beta4.
+The layout inflated by the compound view (`CompoundMotionLayout`) using the `<merge>` tag, broke on `2.0.0-beta4` (it was working correctly on `2.0.0-beta3`). 
+We experienced this problem when switching from `2.0.0-beta3` to `2.0.4`, but I was able to scope the problem when switching from beta3 to beta4.
 
 ##### Build
 
